@@ -1,0 +1,31 @@
+digraph {
+	customers [label=customers]
+	customers_CustomerID [label=CustomerID shape=ellipse]
+	customers -> customers_CustomerID
+	customers_Name [label=Name shape=ellipse]
+	customers -> customers_Name
+	customers_Address [label=Address shape=ellipse]
+	customers -> customers_Address
+	customers_PhoneNo [label=PhoneNo shape=ellipse]
+	customers -> customers_PhoneNo
+	orders [label=orders]
+	orders_OrderID [label=OrderID shape=ellipse]
+	orders -> orders_OrderID
+	orders_CustomerID [label=CustomerID shape=ellipse]
+	orders -> orders_CustomerID
+	orders_OrderDate [label=OrderDate shape=ellipse]
+	orders -> orders_OrderDate
+	orders_TotalAmount [label=TotalAmount shape=ellipse]
+	orders -> orders_TotalAmount
+	products [label=products]
+	products_ProductID [label=ProductID shape=ellipse]
+	products -> products_ProductID
+	products_ProductName [label=ProductName shape=ellipse]
+	products -> products_ProductName
+	products_Category [label=Category shape=ellipse]
+	products -> products_Category
+	products_Price [label=Price shape=ellipse]
+	products -> products_Price
+	products_StockQuantity [label=StockQuantity shape=ellipse]
+	products -> products_StockQuantity
+}
