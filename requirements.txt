@@ -1,12 +1,11 @@
 pandas
 python-dotenv
 streamlit
-speechrecognition
+speech_recognition
 pyttsx3
 langchain_core
 langchain_community
 langchain_groq
 sqlalchemy
 graphviz
-pyrebase4
-psycopg2-binary
+pyrebase
