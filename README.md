@@ -12,6 +12,8 @@ The AI-Powered Query Interface is a Streamlit-based web application designed to 
 - **Logs Export:** Exports query logs for audit and analysis.
 - **Voice Input:** Allows users to enter queries using voice commands via speech recognition.
 - **Database Management:** Supports database creation, snapshot storage, and restoration.
+- **Data Visualisation:** Supports data visualisation for greater readibility using piecharts and bargraphs.
+- **Chat History:** Chat history of every user's login is visible for future use.
 
 ## System Requirements
 - Python 3.8+
